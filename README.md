@@ -1,8 +1,45 @@
-# PwC GUI Test Automation Challenge
+# 🧪 PwC GUI Test Automation Challenge
 
-Este proyecto forma parte del desafío técnico para la posición de QA Automation en PwC Argentina. Se trata de un conjunto de pruebas automatizadas sobre la aplicación [SauceDemo](https://www.saucedemo.com/) usando **Python + Selenium**, siguiendo buenas prácticas como el **Page Object Model (POM)**.
+This repository contains automated GUI tests for the login functionality of [saucedemo.com](https://www.saucedemo.com), developed as part of a technical challenge for the QA Automation position at PwC Argentina.
+
+Tests are implemented in **Python** using **Selenium WebDriver** and **Pytest**, following the **Page Object Model (POM)** design pattern to ensure maintainability and scalability.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🚀 Objective
 
+Deliver robust and maintainable automated tests validating the login process of the target application, demonstrating best practices in QA automation.
+
+---
+
+## 🧰 Technologies and Tools
+
+- Python 3.x  
+- Selenium WebDriver  
+- Pytest  
+- Page Object Model (POM)  
+- Virtual environments  
+- WebDriver Manager (optional)  
+
+---
+
+## 📂 Project Structure
+
+- `pages/` — Page Objects (POM) classes: `base_page.py`, `login_page.py`  
+- `tests/` — Test scripts: `test_login.py`  
+- `resources/` — Optional screenshots or test data  
+- `reports/` — Optional test reports  
+- `conftest.py` — Pytest fixtures and setup  
+- `config.py` — Configuration and test data  
+- `requirements.txt` — Project dependencies  
+- `README.md` — Project documentation  
+
+---
+
+## ⚙️ Setup and Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ASO2021/PwC_GUI_Test_Automation_Challenge.git
+cd PwC_GUI_Test_Automation_Challenge
